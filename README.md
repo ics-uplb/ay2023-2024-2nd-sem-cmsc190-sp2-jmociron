@@ -1,8 +1,4 @@
-# My Special Problem: An example of CMSC 190 GitHub Repository
-Authors: Juan D. Cruz and Adviser' S. Name
+# AligNET: A Web Application for Mapped NGS Reads using Open-Source Genome Browser Libraries
+Authors: Jamie Mari O. Ciron and Mylah Rystie U. Anacleto
 
-This is the abstract of my special problem. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut congue, diam molestie pellentesque feugiat, lorem libero vehicula lorem, eget accumsan magna mi non sem. Aliquam erat volutpat. Aliquam scelerisque sagittis mi sed consequat. Ut vestibulum ullamcorper fermentum. Vivamus eu efficitur nunc, quis tempus libero. Aliquam condimentum posuere sem, vitae auctor purus tempus quis. Aenean laoreet nulla pretium mauris faucibus gravida. Nunc interdum, tortor at tempus egestas, velit eros bibendum dui, a malesuada mi lectus ut ante. Praesent ac turpis gravida, tincidunt tellus vitae, volutpat tortor.
-
-Keywords: template, submission, repository, example
-
-Read [How To Document](HOWTO.md) for more details.
+Next-generation sequencing (NGS) refers to technology used to determine the composition of genomic data, which is essential in medical and evolutionary biology. However, generated reads provide little information on their own, and require to be aligned onto a reference through mapping. Mapped reads may be viewed through genome browsers, which are software that provide an overview of the genome and allows for annotation and analysis. While conventional genome browsers allow for a more extensive examination, displaying genomic data in a comprehensive manner is a bottleneck given the complexity of these types of data as well as technological limitations such as storage, memory, and screen size. The study has developed an application that specializes in visualizing mapping results, which not only simplifies the user interface but also lessens the risk for errors in analysis. Existing genome browser libraries were also integrated to provide access to reliable and well-maintained visualization features. The application was evaluated by groups of biology students and bioinformaticians from the University of the Philippines Los Baños (UPLB) using the System Usability Scale (SUS), resulting in scores of 89.00 and 95.00 respectively which are both considered above average.
