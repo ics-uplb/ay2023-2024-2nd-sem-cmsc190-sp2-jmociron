@@ -1,19 +1,63 @@
 # Development Set-up
 ## Prerequisites
-* interpreter
-* package manager 1
-* test files (file1, file2)
-* Android phone
-* IDE used, etc
+### Setting up the Django back-end
+
+#### Installing Python (Windows)
+- Download Python through their website: https://www.python.org/downloads/
+- After installation, verify installation by checking the current version
+```
+py --version
+```
+
+#### Set up virtual environment and install dependencies (Windows)
+```
+python -m venv
+virtualenv env
+.\env\Scripts\activate
+pip install -r requirements.txt
+```
+Exit the virtual environment using ```deactivate```
+
+#### Installing Django in the virtual environment (Windows)
+```
+py -m pip install Django
+```
+
+#### Create admin user in Django
+```
+python manage.py createsuperuser
+```
+
+#### Manage changes to the database
+This is needed after cloning the repository.
+- Run ```python manage.py makemigrations app``` to create migrations for those changes
+- Run ```python manage.py migrate``` to apply those changes to the database
+
+### Setting up the NextJS front-end
+
+Install NextJS
+```
+npm install next@latest react@latest react-dom@latest
+```
+
+Install other dependencies in the project
+```
+cd frontend
+npm install
+```
+
 ## Instructions
-1. Install `interpeter` from link
-2. Run the following command to install other packages:
+
+### Running the Django back-end
 ```
-interpreter install package_manager
-package_manager -i packages
+cd backend
+.\env\Scripts\activate
+python manage.py runserver
 ```
-3. Run the following command to use the program:
+
+### Running the NextJS front-end
 ```
-myprogram file1 file2
+cd frontend
+npm run dev
 ```
-4. A binary file can also be downloaded from this link which can be used by any device.
+
